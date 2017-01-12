@@ -1,0 +1,431 @@
+@charset "utf-8";
+/* CSS Document */
+#GoCheer-main_box {
+    width: 300px;
+    background: #fff;
+    z-index: 99998;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    text-align: left;
+    border-radius: 3px;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+#GoCheer-main_box .GoCheer-main_title {
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    color: #fff;
+    position: relative;
+    z-index: 99999;
+}
+
+#GoCheer-main_box .GoCheer-logo {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-top: 0px;
+    background: no-repeat 0 0;
+    vertical-align: middle;
+}
+
+#GoCheer-main_box .GoCheer-main_title a.GoCheer-gb {
+    position: absolute;
+    right: 7px;
+    top: 7px;
+    display: inline-block;
+    height:18px;
+    width: 18px;
+    background: no-repeat;
+    background-position: 0px -2833px;
+}
+
+#GoCheer-main_box .GoCheer-main_title a.GoCheer-gb:hover {
+    background-position-y: -2859px;
+}
+
+#GoCheer-main_box .GoCheer-main_title a.GoCheer-gb:active {
+    background-position-y: -2859px;
+}
+
+#GoCheer-main_box .GoCheer-search {
+    height: 30px;
+    line-height: 30px;
+    color: #FF8C00;
+    font-size: 24px;
+    padding: 0 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#GoCheer-main_box .GoCheer-search a {
+    border: none;
+    background: none;
+    margin-top: 9px;
+}
+
+#GoCheer-main_box .GoCheer-prev, #GoCheer-main_box .GoCheer-next {
+    display: block;
+    float: left;
+    width: 21px;
+    height: 21px;
+    cursor: pointer;
+    margin-left: 1px \9
+}
+
+#GoCheer-main_box .GoCheer-search input {
+    height: 21px;
+    line-height: 21px;
+    padding: 0 5px;
+    margin-left: 10px;
+    margin-right: 5px;
+    color: #232323;
+    width: 185px;
+    float: left;
+}
+
+#GoCheer-main_box a.GoCheer-sear {
+    float: left;
+    display: block;
+    width: 59px;
+    height: 23px;
+    font-weight: 700;
+    color: #2f2f2f !important;
+    text-decoration: none !important;
+    text-align: center;
+    line-height: 23px;
+    margin-top: 8px;
+    outline: none;
+}
+
+#GoCheer-main_box .GoCheer-CB {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 40px;
+    background: #f8f8f8;
+}
+
+#GoCheer-main_box .GoCheer-down {
+    background: #fff;
+    border-left: 1px solid #c3c3c3;
+    border-right: 1px solid #c3c3c3;
+    font-size: 12px;
+    padding: 0 10px;
+}
+
+#GoCheer-main_box .GoCheer-down a {
+    font-size: 12px;
+    color: #236FD4;
+    text-decoration: none;
+    display: block;
+    border-top: 1px solid #c3c3c3;
+    padding: 5px 2px;
+}
+
+#GoCheer-main_box .GoCheer-down a:hover {
+    text-decoration: underline;
+}
+
+.GoCheer-des {
+    height: 30px;
+    overflow: hidden;
+    padding-right: 9px;
+}
+
+.GoCheer-des a {
+    float: right;
+    margin-top: 5px;
+    color: #1596f5;
+    text-decoration: none;
+}
+
+.GoCheer-des a:hover {
+    color: #57b6fb;
+}
+
+#GoCheer-main_cont {
+    padding: 0 20px;
+    font-family: "microsoft yahei", Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #fbfbfb;
+    color: #666;
+}
+
+#GoCheer-main_cont div, #GoCheer-main_cont ul, #GoCheer-main_cont li, #GoCheer-main_cont p, #GoCheer-main_cont form, #GoCheer-main_cont input, #GoCheer-main_cont label {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+#GoCheer-main_cont input, #GoCheer-main_cont button, #GoCheer-main_cont textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: inherit;
+    font-style: inherit;
+    font-weight: inherit;
+}
+
+#GoCheer-main_cont {
+    background: #fff;
+    _width: 278px;
+    _overflow: hidden;
+}
+
+#GoCheer-main_cont ul, #GoCheer-main_cont li {
+    list-style: none;
+}
+
+#GoCheer-main_cont a {
+    color: #666;
+    text-decoration: none;
+}
+
+#GoCheer-main_cont a:hover {
+    color: #4372b6;
+    text-decoration: underline;
+}
+
+#GoCheer-main_cont a:focus {
+    outline: none;
+}
+
+#GoCheer-main_cont img {
+    border: 0;
+}
+
+#GoCheer-main_cont strong {
+    font-weight: 100;
+    font-family: "arial", "Segoe UI", Verdana, Lucida Sans Regular, Lucida Sans Unicode, Arial, sans-serif;
+}
+
+#GoCheer-main_cont .GoCheer-bg_main {
+    background: #fff;
+}
+
+#GoCheer-main_cont .GoCheer-usually, #GoCheer-main_cont .GoCheer-prons, #GoCheer-main_cont .GoCheer-tab_list, #GoCheer-main_cont .GoCheer-group_inf {
+    font-size: 14px;
+}
+
+#GoCheer-main_cont .GoCheer-fl, #GoCheer-main_cont .GoCheer-nav_list li, #GoCheer-main_cont .GoCheer-left_bg, #GoCheer-main_cont .GoCheer-usually label, #GoCheer-main_cont .GoCheer-usually span, #GoCheer-main_cont .GoCheer-tab_list li, #GoCheer-main_cont .GoCheer-group_inf li, #GoCheer-main_cont .GoCheer-eg, #GoCheer-main_cont .GoCheer-us {
+    float: left;
+}
+
+#GoCheer-main_cont .GoCheer-register, #GoCheer-main_cont .GoCheer-right_bg, #GoCheer-main_cont .GoCheer-up, #GoCheer-main_cont .GoCheer-down {
+    float: right
+}
+
+#GoCheer-main_cont .GoCheer-register {
+    padding-left: 25px;
+}
+
+#GoCheer-main_cont a.GoCheer-text_black, #GoCheer-main_cont .GoCheer-nav_list strong {
+    color: #333;
+}
+
+#GoCheer-main_cont a {
+    text-decoration: none;
+    color: #236fd4;
+    font-size: 14px;
+}
+
+#GoCheer-main_cont a:hover {
+    color: #236fd4;
+}
+
+#GoCheer-main_cont .GoCheer-handwrite, #GoCheer-main_cont .GoCheer-handwrite_over, #GoCheer-main_cont .GoCheer-drop_down {
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    position: absolute;
+}
+
+#GoCheer-main_cont .GoCheer-handwrite {
+    background-position: 0 -70px;
+    top: 14px;
+    right: 130px;
+}
+
+#GoCheer-main_cont .GoCheer-handwrite_over {
+    background-position: -18px -70px;
+    top: 14px;
+    right: 130px;
+}
+
+#GoCheer-main_cont #GoCheer-dict_main {
+    padding-bottom: 10px;
+}
+
+#GoCheer-main_cont .GoCheer-dictbar {
+    display: inline-block;
+    padding: 0 0 18px 8px;
+    position: relative;
+}
+
+#GoCheer-main_cont .GoCheer-title {
+    line-height: 32px;
+    position: relative;
+    font-size: 24px;
+    color: #333;
+    font-family: arial, sans-serif;
+    font-weight: bold;
+    padding: 16px 17px 0 18px;
+    word-break: break-all;
+}
+
+#GoCheer-main_cont .GoCheer-prons {
+    white-space: nowrap;
+    word-break: break-all;
+    font-weight: 700;
+}
+
+#GoCheer-main_cont .GoCheer-dict_title {
+    color: #9fa6ad;
+    font-family: "microsoft yahei", arial, sans-serif;
+    margin-bottom: 6px;
+}
+
+#GoCheer-main_cont .GoCheer-eg, #GoCheer-main_cont .GoCheer-us, #GoCheer-main_cont .GoCheer-group_pos strong, #GoCheer-main_cont .GoCheer-group_inf li {
+    padding-right: 10px;
+}
+
+#GoCheer-main_cont .GoCheer-eg, #GoCheer-main_cont .GoCheer-us {
+    font-family: "microsoft yahei", "lucida sans unicode", arial;
+    padding-top: 2px;
+}
+
+#GoCheer-main_cont .GoCheer-new_word {
+    padding-top: 2px;
+    float: left;
+}
+
+#GoCheer-main_cont .GoCheer-new_word a {
+    padding: 3px 10px 0 20px;
+    height: 17px;
+    font-weight: 100;
+    color: #999 !important;
+    display: block;
+    background-position: -274px 0;
+    width: 35px;
+    font-family: "宋体"
+}
+
+#GoCheer-main_cont .GoCheer-new_word a.GoCheer-new_word2 {
+    background-position: -274px -19px
+}
+
+#GoCheer-main_cont .GoCheer-usually, #GoCheer-main_cont .GoCheer-prons {
+    color: #999;
+}
+
+#GoCheer-main_cont .GoCheer-group_prons .GoCheer-second {
+    float: none;
+    padding-top: 0;
+}
+
+#GoCheer-main_cont .GoCheer-group_prons .GoCheer-second .GoCheer-eg {
+    height: 24px;
+}
+
+#GoCheer-main_cont .GoCheer-mb9 p {
+    margin-bottom: 9px;
+}
+
+#GoCheer-main_cont .GoCheer-group_pos {
+    color: #232323;
+    line-height: 20px;
+    clear: both;
+    overflow: hidden;
+}
+
+#GoCheer-main_cont .GoCheer-group_pos p {
+    clear: both;
+}
+
+#GoCheer-main_cont .GoCheer-cn .GoCheer-group_pos {
+    color: #333;
+}
+
+#GoCheer-main_cont .GoCheer-group_pos strong {
+    color: #8d8d8d;
+}
+
+#GoCheer-main_cont .GoCheer-group_prons {
+    clear: both;
+}
+
+#GoCheer-main_cont .GoCheer-margin_top {
+    padding-top: 6px;
+}
+
+#GoCheer-main_cont .GoCheer-part_list a, #GoCheer-main_cont .GoCheer-tab_list li a, #GoCheer-main_cont .GoCheer-new_word a, #GoCheer-main_cont .GoCheer-part_main h3 a {
+    text-decoration: none;
+}
+
+#GoCheer-main_cont .GoCheer-tab_list {
+    overflow: hidden;
+    padding: 0 0 0 8px;
+    background: #c8c8c8;
+}
+
+#GoCheer-main_cont .GoCheer-title {
+    font-size: 14px;
+    padding: 13px 10px 1px;
+    line-height: 18px
+}
+
+#GoCheer-main_cont .GoCheer-dictbar {
+    padding-left: 0;
+    padding-bottom: 6px
+}
+
+#GoCheer-main_cont .GoCheer-group_pos {
+    line-height: 20px;
+    font-size: 14px;
+}
+
+#GoCheer-main_cont .GoCheer-group_pos p {
+    padding-bottom: 9px;
+}
+
+#GoCheer-main_cont .GoCheer-label_list {
+    display: table-cell;
+    padding-left: 5px;
+    *padding-top: 2px;
+}
+
+#GoCheer-main_cont .GoCheer-footer {
+    text-align: right;
+    color: #999;
+    _width: 260px;
+    padding-bottom: 10px;
+    font-size: 12px;
+}
+
+#GoCheer-main_cont .GoCheer-footer a {
+    color: #236fd4;
+    text-decoration: none;
+    padding-right: 10px;
+}
+
+#GoCheer-main_cont .GoCheer-footer a:hover {
+    color: #236fd4;
+    text-decoration: underline;
+}
+
+#GoCheer-main_cont a.GoCheer-xx {
+    font-size: 12px;
+    line-height: 18px;
+    font-weight: 100;
+    text-decoration: none !important;
+    color: #236fd4;
+    padding-right: 10px;
+    padding-bottom: 0;
+}
+
+#GoCheer-main_cont a.GoCheer-xx:hover {
+    color: #236fd4;
+    text-decoration: underline !important;
+}

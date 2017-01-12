@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+    <!--<link type="text/css" rel="stylesheet" href="css">-->
+
+    <link type="text/css" rel="stylesheet" href="css/login.css">
+    <link type="text/css" rel="stylesheet" href="css/login-state.css">
+    <link type="text/css" rel="stylesheet" href="css/input.css">
+
+    <script src="js/jquery-3.1.0.js" type="text/javascript"></script>
+    <script src="record.js" type="text/javascript"></script>
+
+    <title>枸杞-用户登录页</title>
+
+</head>
+<body>
+<form id="not_logged_in" name="loginForm" method="post" style="display: none;height: 200px;width: 200px;">
+    <div class="container col-md-4 container1">
+        <div class="input-container">
+            <span class="input input--hoshi">
+                <input class="input__field input__field--hoshi" type="text" id="input-1" name="username"/>
+                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-1">
+                    <span class="input__label-content input__label-content--hoshi">Username</span>
+                </label>
+            </span>
+            <input type="hidden" name="extension" value="true">
+            <span class="input input--hoshi">
+                <input class="input__field input__field--hoshi" type="password" name="password" id="input-2"/>
+                <label class="input__label input__label--hoshi input__label--hoshi-color-1" for="input-2">
+                    <span class="input__label-content input__label-content--hoshi">Password</span>
+                </label>
+            </span>
+            <button id="subbutton" type="submit" class="btn">Login</button>
+            <a target="_blank" href="http://gocheer.donggu.me/signup.jsp" id="btn-signup" class="btn btn-sighup">Sign up</a>
+        </div>
+    </div>
+</form>
+<div class="container" id="login_success" style="display: none;height: 200px;width: 300px;">
+    <div class="fl-left">
+        <h3>Hello, <span id="alias"></span></h3>
+    </div>
+
+    <table class="table table-condensed table-score">
+        <thead>
+        <tr>
+            <th id="wordsum">2000</th>
+            <th id="scoresum">300</th>
+            <th id="score">2500</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Words</td>
+            <td>Achievement</td>
+            <td>Scores</td>
+        </tr>
+        </tbody>
+    </table>
+    <a id="logout" href="javascript:;">
+        <button type="button" class="btn-view btn-sm btn-block btn-grey">Log Out</button>
+    </a>
+    <a target="_blank" id="href_My_Profile" href="http://gocheer.donggu.me/login">
+        <button type="button" class="btn-view btn-sm btn-block">My Profile</button>
+    </a>
+    <a target="_blank" id="href_View_Leaderboard" href="http://gocheer.donggu.me/leaderboard.jsp">
+        <button type="button" class="btn-view btn-sm btn-block">View Leaderboard</button>
+    </a>
+
+</div>
+
+<script src="js/classie.js" type="text/javascript"></script>
+
+</body>
+</html>

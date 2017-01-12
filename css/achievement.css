@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    /*font-family: 微软雅黑;*/
+}
+
+/*让成就弹框固定在屏幕右下角（距右、下10px处）*/
+.achievement_main_box {
+    font-size: 14px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    z-index: 9999;
+
+    width:370px;
+    /*height: 160px;*/
+    border-radius: 3px;
+    background-color: white;
+    border: 1px solid #d9d9d9;
+    box-shadow: 0 0 6px 2px rgba(0, 0, 0, .2);
+}
+
+#popHead {
+    height:5px;
+    line-height: 5px;
+    position: relative;
+    font-size: 12px;
+    padding: 0;
+}
+
+#popHead #popClose {
+    height:18px;
+    width: 18px;
+    background: 0px -2833px no-repeat;
+    position: absolute;
+    right: 8px;
+    top: 8px;
+}
+#popHead #popClose:hover{
+    background-position-y: -2859px;
+}
+
+#popHead a#popClose:hover {
+    cursor: pointer;
+}
+
+#popContent {
+    padding: 5px 10px 0px 10px ;
+}
+
+#img_wrap{
+    float: left;
+    margin-right: 15px;
+    margin-top: 0px;
+}
+
+#ach_dl{
+    margin: 0;
+}
+
+#info_wrap{
+   padding-left: 120px;
+}
+
+#popTitle,#popIntro,#popAchName,#popBonus {
+    /*text-indent: 24px;*/
+    line-height: 160%;
+    margin: 2px 0;
+    color: black;
+}
+
+#popAchName{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#popMore {
+    text-align: center;
+    border-top: 1px solid #ccc;
+    line-height: 24px;
+    margin: 8px 0 0 0;
+}
+
+#popMore a {
+    text-decoration: none;
+    color: #236fd4;
+}
+
+#popMore a:hover {
+    font-size: 14px;
+    text-decoration: none;
+    color: #236fd4;
+}
